@@ -1,0 +1,154 @@
+:root{
+  --blue-color: #1E87F0;
+  --blue-color-hover: #0F7AE5;
+  --orange-color: #ffa500;
+  --dark-bg-color: #474747;
+  --dark-bg-color-hover: #222;
+}
+body, html, .max-height{
+  height: 100%;
+}
+.asRange{
+  width: 100%;
+}
+/*===COLOR===*/
+.orange{
+  background: var(--orange-color);
+  color: gray;
+}
+.blue{
+  background: var(--blue-color);
+  color: #fff;
+}
+.green, .green-button{
+  background: #2ECC71;
+  color: #fff;
+}
+/*===END COLOR===*/
+.logo{
+  max-width: 250px;
+  max-height: 300px;
+}
+.search select, .search input, .shop a{
+  height: 50px!important;
+}
+.search input{
+  padding: 10px;
+}
+.search form, .shop a{
+  margin-top: 50px;
+}
+header .top{
+  background-color: #EEE;
+}
+.dark, .uk-button-secondary{
+  background: var(--dark-bg-color);
+}
+.dark > *{
+  color:#fff;
+}
+.main-navbar{
+  background: var(--dark-bg-color)!important;
+}
+.main-navbar .uk-navbar-nav > li > a {
+  color: #fff!important;
+}
+.main-navbar .uk-navbar-nav > li > a:hover, main-navbar .uk-navbar-nav > li > a:active{
+  background: var(--dark-bg-color-hover)!important;
+}
+.content{
+  padding: 10px 0;
+}
+.sidebar--header > a{
+  width: 100%!important;
+}
+.sidebar--list{
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.uk-grid + .uk-grid{
+  margin-top: 10px;
+}
+.uk-card-default {
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.uk-card{
+  margin-bottom: 15px!important;
+}
+.delimiter{
+  height: 5px;
+}
+.no-margin{
+  margin: 0;
+}
+footer{
+  height: 50px;
+}
+.uk-tab-left > li > a{
+  text-align: left;
+  color: #000;
+  font-size: 16px;
+}
+.uk-tab-left > .uk-active > a{
+  background: var(--blue-color-hover);
+  color: #fff!important;
+}
+.uk-tab-left > li > a:hover{
+  background: var(--blue-color);
+  color: #fff!important;
+}
+
+/*===ADMIN===*/
+.admin-sidebar{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0!important;
+  background: #253449;
+}
+.admin-sidebar a{
+  color: #bdc3c7!important;
+}
+.admin-sidebar a:hover{
+  background: #1F2C3D;
+}
+.admin-sidebar .uk-nav-header{
+  color: #27AE5A;
+}
+.green input{
+  height: 25px;
+  padding: 5px;
+  color: #fff;
+}
+.green-button:hover, .green input{
+  background: #27AE60;
+}
+.circle{
+  border-radius: 20px;
+  border: none;
+}
+.category-padding{
+  padding: 10px;
+}
+.max-width {
+  width: 100%;
+}
+.bold{
+  font-size: bold;
+}
+
+.summary{
+  background: #c3dbd7;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.uk-card-header{
+  width: 200px;
+  height: 200px;
+  margin: auto!important;
+}
+.uk-card-header img{
+  max-width: 100%;
+  max-height: 100%;
+}
